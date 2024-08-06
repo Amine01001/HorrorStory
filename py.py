@@ -4,6 +4,7 @@ import os
 import sys
 
 directory = 'Stories'
+os.makedirs(directory, exist_ok=True)
 ascii_art = """\
 
 
